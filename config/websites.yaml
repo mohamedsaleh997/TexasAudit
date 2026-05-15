@@ -1,0 +1,5 @@
+websites:
+  - name: Texas Chicken Iraq
+    country: Iraq
+    base_url: https://iraq.texaschicken.com/
+    max_pages: 12

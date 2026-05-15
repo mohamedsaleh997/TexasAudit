@@ -1,0 +1,27 @@
+[project]
+name = "texas-audit"
+version = "0.1.0"
+description = "Friendly Python Playwright app for Texas Chicken website audits."
+requires-python = ">=3.10"
+dependencies = [
+    "playwright>=1.44.0",
+    "streamlit>=1.35.0",
+    "pydantic>=2.7.0",
+    "pyyaml>=6.0.0",
+    "pymupdf>=1.24.0",
+    "pillow>=10.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.2.0",
+    "ruff>=0.4.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
