@@ -10,6 +10,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
@@ -37,6 +40,7 @@
     "TestNG.DealsRedemptionTest.redeemTwentyPcsChickenMealAndAddToCart.executor": "Run",
     "TestNG.LoginTest.should_ShowError_when_InvalidCredentialsProvided.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Intellij_Projects/Texas",
@@ -55,7 +59,7 @@
       <recent name="D:\Intellij_Projects\Texas" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DealsRedemptionTest.redeemDealAndAddToCart">
+  <component name="RunManager">
     <configuration name="DealsRedemptionTest.redeemDealAndAddToCart" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Texas" />
       <extension name="coverage">
